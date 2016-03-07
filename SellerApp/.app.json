@@ -5,15 +5,188 @@
       "type": "kendo-ui-mobile:view",
       "name": "home",
       "components": [],
-      "title": "Home View",
-      "addToNavigation": true,
-      "icon": "home"
+      "title": "Home",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "login",
+      "components": [],
+      "title": "Login",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "orders",
+      "components": [],
+      "title": "Orders",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "aboutFoodvite",
+      "components": [],
+      "title": "About Foodvite",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "accountsummary",
+      "components": [],
+      "title": "Account Summary",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "faq",
+      "components": [],
+      "title": "FAQ",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "getstarted",
+      "components": [],
+      "title": "Get started",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "myaccount",
+      "components": [],
+      "title": "My Account",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "notification",
+      "components": [],
+      "title": "Notification",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "orderdetails",
+      "components": [],
+      "title": "Order details",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "orderhistory",
+      "components": [],
+      "title": "Order History",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "registersuccess",
+      "components": [],
+      "title": "Register Success",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "register",
+      "components": [],
+      "title": "Register",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "resetpassword",
+      "components": [],
+      "title": "Reset Password",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "settings",
+      "components": [],
+      "title": "Settings",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "submitarequest",
+      "components": [],
+      "title": "Request",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "additionalview1",
+      "components": [],
+      "title": "addd1",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add2",
+      "components": [],
+      "title": "add2",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add3",
+      "components": [],
+      "title": "add3",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add4",
+      "components": [],
+      "title": "add4",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add5",
+      "components": [],
+      "title": "add5",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add6",
+      "components": [],
+      "title": "add6",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add7",
+      "components": [],
+      "title": "add7",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add8",
+      "components": [],
+      "title": "add8",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add9",
+      "components": [],
+      "title": "add9",
+      "addToNavigation": false
+    },
+    {
+      "type": "kendo-ui-mobile:view",
+      "name": "add10",
+      "components": [],
+      "title": "add10",
+      "addToNavigation": false
     }
   ],
   "dataProviders": [],
   "name": "kendoUiMobileApp",
-  "navigation": "tabstrip",
+  "navigation": "none",
   "view": "home",
-  "transition": "slide",
   "skin": "flat"
 }
