@@ -1,7 +1,39 @@
-<div data-role="view" data-title="Reset Password" data-layout="main-nonav" data-model="app.resetpassword" data-show="app.resetpassword.onShow" data-after-show="app.resetpassword.afterShow">
-
-    <!-- START_CUSTOM_CODE_resetpassword -->
+<div data-role="view" id="resetpasswordView" data-title="Reset Password" data-layout="main-nonav" data-model="app.resetPasswordView" data-show="app.resetPasswordView.onShow" data-after-show="app.resetPasswordView.afterShow">
+    <div data-role="header">
+        <div data-role="navbar">
+            Change Password
+            <img class="nav-button nav-button-icon nav-button-back" data-align="left" data-role="backbutton" src="icons/back.png" data-bind="events: { click: resetPasswordViewModel.cancel }"/>
+            <a class="nav-button-white" data-role="button" data-align="right" data-bind="events: { click: resetPasswordViewModel.submit }">Done</a>
+        </div>
+    </div>
+    <br><div class="alignment pacifico">foodvite</div>
+    <div id="resetpasswordView" class="form-view">
+        <form>
+            <ul class="form-content" data-role="listview" data-style="inset">
+                <li>
+                    <label>
+                        <input data-bind="value: resetPasswordViewModel.fields.sellerOldPassword" type="password" placeholder="Old Password">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input data-bind="value: resetPasswordViewModel.fields.sellerNewPassword" type="password" placeholder="New Password">
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input data-bind="value: resetPasswordViewModel.fields.sellerConfirmPassword" type="password" placeholder="Confirm Password">
+                    </label>
+                </li>
+            </ul>
+            
+        </form>
+        
+        <!-- START_CUSTOM_CODE_resetPasswordViewModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+        <!-- END_CUSTOM_CODE_resetPasswordViewModel -->
+    </div>
+    <!-- START_CUSTOM_CODE_resetPasswordView -->
     <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
-
-    <!-- END_CUSTOM_CODE_resetpassword -->
+    <!-- END_CUSTOM_CODE_resetPasswordView -->
 </div>

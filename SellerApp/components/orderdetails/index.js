@@ -1,6 +1,6 @@
 'use strict';
 
-app.orderdetails = kendo.observable({
+app.orderDetailsView = kendo.observable({
     onShow: function() {},
     afterShow: function() {}
 });

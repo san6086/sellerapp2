@@ -1,7 +1,109 @@
-<div data-role="view" data-title="Settings" data-layout="main-nonav" data-model="app.settings" data-show="app.settings.onShow" data-after-show="app.settings.afterShow">
-
-    <!-- START_CUSTOM_CODE_settings -->
-    <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
-
-    <!-- END_CUSTOM_CODE_settings -->
+<div id="settingsView" data-role="view" data-title="Settings" data-layout="main" data-model="app.settingsView" data-show="app.settingsView.onShow" data-after-show="app.settingsView.afterShow">
+    <div data-role="header">
+        <div data-role="navbar">
+            <span class="foodvite-small">foodvite</span>
+            <img class="nav-button nav-button-back nav-button-icon" data-align="left" data-role="backbutton" src="images/back.png" />
+            <a class="nav-button-white" data-role="button" data-align="right" data-bind="events: { click: settingsViewModel.submit }" >Logout</a>
+        </div>
+        <img class="seller-banner" data-align="centre" src="http://hotelsarojkrishna.com/img/gallery/6.jpg" />
+        <table class="nav">
+            <tr>
+                <td class="navfont">
+                    Restaurant Name
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="settingsView" class="form-view">
+        <ul class="form-content" data-role="listview" data-style="inset">
+            <table class="settings-view" cellpadding="15">
+                <tr>
+                    <td><img class="call-user" data-align="left" src="images/email.png" />
+                    </td>
+                    <td><span class="foodvite-blue">Email</span>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td> <img class="call-user" data-align="left" src="images/changepassword.png" />
+                    </td>
+                    <td><a href="components/resetpassword/view.html">
+                        <span class="foodvite-blue">Change Password</span></a>
+                    </td>
+                   <td>
+                        <img class="call-user" data-align="left" src="images/arrows.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/notifications.png" />
+                    </td>
+                    <td><a href="components/notification/view.html">
+                        <span class="foodvite-blue" data-align="center">Notifications</span>
+                    </td>
+                        <td>
+                        <img class="call-user" data-align="left" src="images/arrows.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/about.png" />
+                    </td>
+                    <td>
+                        <a href="components/aboutfoodvite/view.html"><span class="foodvite-blue">About Foodvite</span></a>
+                    </td>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/arrows.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/FAQ.png" />
+                    </td>
+                    <td>
+                        <a href="components/FAQView/view.html"><span class="foodvite-blue" data-align="centre">FAQ</span></a>
+                    </td>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/arrows.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/request.png" />
+                    </td>
+                    <td><a href="components/submitarequest/view.html">
+                        Submit a request</a>
+                    </td>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/arrows.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="call-user" data-align="left" src="images/orderhistory.png" />
+                    </td>
+                    <td><a href="components/orderhistory/view.html">
+                        <span class="foodvite-blue">Order History</span></a>
+                    </td>
+                    <td>
+                        <img class="call-user" data-align="right" src="images/arrows.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <img class="call-user" data-align="right" src="images/ordersummary.png" />
+                    </td>
+                    <td><a href="components/accountsummary/view.html">
+                        <span class="foodvite-blue">Account Summary</span>
+                    </td>
+                        <td>
+                        <img class="call-user" data-align="right" src="images/arrows.png" />
+                    </td>
+                </tr>
+            </table>
+        </ul>
+        <!-- START_CUSTOM_CODE_settingsViewModel -->
+        <!-- Add custom code here. For more information about custom code, see http://docs.telerik.com/platform/screenbuilder/troubleshooting/how-to-keep-custom-code-changes -->
+        <!-- END_CUSTOM_CODE_settingsViewModel -->
+    </div>
 </div>
