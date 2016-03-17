@@ -2,7 +2,8 @@
 
 app.accountsummary = kendo.observable({
     onShow: function() {},
-    afterShow: function() {}
+    afterShow: function() {
+    }
 });
 
 // START_CUSTOM_CODE_accountsummary
